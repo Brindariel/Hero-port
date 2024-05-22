@@ -78,8 +78,9 @@ function HeroSection() {
                           hover:bg-slate-200
                           text-white
                         "
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 0.3 }} // animation for button
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 17 }} // animation for button
                         >
                           Hire Me
                         </motion.button>
@@ -95,17 +96,18 @@ function HeroSection() {
                           text-white
                           mt-2
                         "
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 0.3 }} // animation for button
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 17 }}// animation for button
                         >
                           Download CV
                         </motion.button>
                     </a>
-                      <div className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-32'>
+                      <div className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-25'>
                         <h3 className='font-bold font-serif '>
                           Welcome To My Protfolio
                         </h3>
-                        <p>
+                        <p className='text-base lg:text-lg mb-32'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
                 voluptuous.
                         </p>
