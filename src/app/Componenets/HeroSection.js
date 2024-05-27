@@ -5,10 +5,11 @@ import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+
 function HeroSection() {
   
   return (
-    <section>
+    <section >
       <div className=" 
         grid 
         grid-cols-1
@@ -20,11 +21,12 @@ function HeroSection() {
               text-center 
               sm:text-center ">
                  
-              <motion.div className="rounded-full  w-[200px] h-[200px] 
+              <motion.div className=" rounded-full  w-[200px] h-[200px] 
                  lg:w-[200px] lg:h-[200px] relative items-center sm:items-center 
-                  ml-auto mr-auto"
+                  ml-auto mr-auto border-white"
                  animate={{ y: [0, -20, 0] }}
                  transition={{ duration: 4, ease: "easeInOut", repeat: Infinity }}
+              
                  >
                     <Image
                         src="/images/Hero-picture.jpg"
@@ -107,7 +109,7 @@ function HeroSection() {
                         <h3 className='font-bold font-serif '>
                           Welcome To My Protfolio
                         </h3>
-                        <p className='text-base lg:text-lg mb-32'>
+                        <p className='text-base lg:text-lg mb-32 font-serif'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
                 voluptuous.
                         </p>
