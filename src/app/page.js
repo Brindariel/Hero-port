@@ -2,7 +2,7 @@
 import HeroSection from "./Componenets/HeroSection";
 import Footer from './Componenets/Footer';
 import About from "./Componenets/About";
-import EmailSection from "./Componenets/EmailSection";
+import ContactForm from "./Componenets/ContactForm";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
@@ -11,7 +11,7 @@ export default function Home() {
         <HeroSection/>
       </div>
         <About/>
-        <EmailSection/>
+        <ContactForm/>
       {/* <br></br>
       <Footer/> */}
     </main>
