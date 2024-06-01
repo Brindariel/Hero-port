@@ -11,7 +11,7 @@ export default function Home() {
         <HeroSection/>
       </div>
         <About/>
-        <ContactForm/>
+      {/* <ContactForm/> */}
       {/* <br></br>
       <Footer/> */}
     </main>
